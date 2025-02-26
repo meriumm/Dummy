@@ -1,0 +1,27 @@
+---
+title: "01_Script"
+author: "Maryam Saeed"
+date: "2025-02-25"
+output:
+  md_document:
+  variant: gfm
+  word_document: default
+  html_document: default
+  pdf_document: default
+---
+
+
+## Analysis 1
+```{r}
+library(readr)
+library(knitr)
+```
+
+### Example of relative file paths
+```{r}
+datum <- read.csv("TipsR.csv")
+datum
+```
+
+ 
+
